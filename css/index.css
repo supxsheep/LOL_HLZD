@@ -1,0 +1,1330 @@
+body {
+  min-width: 1420px;
+}
+/*
+主体
+*/
+.main {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+}
+/*
+包裹
+*/
+.mainwrap {
+  width: 100%;
+  position: relative;
+}
+/* 
+顶部包裹__幻灵战队
+*/
+.mainwrap .topwrap {
+  width: 100%;
+  height: 1354px;
+  background-color: cadetblue;
+  position: relative;
+  padding-bottom: 274px;
+  margin-bottom: -38px;
+  z-index: 2;
+}
+.mainwrap .topwrap a.logo_lol {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 2;
+}
+.mainwrap .topwrap a.play {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  z-index: 2;
+  font-size: 50px;
+}
+.mainwrap .topwrap .videi_hl1 {
+  height: 1080px;
+  position: absolute;
+  top: 0px;
+}
+.mainwrap .topwrap .videi_hl2 {
+  height: 1080px;
+  position: absolute;
+  top: 0px;
+}
+.mainwrap .topwrap .catdance {
+  height: 323px;
+  position: absolute;
+  bottom: 0px;
+}
+.mainwrap .wrap {
+  width: 1920px;
+  height: 1882px;
+  position: relative;
+}
+.mainwrap .wrap .commonbar {
+  width: 1920px;
+  height: 52px;
+  position: absolute;
+  top: -7px;
+}
+.mainwrap .wrap .main {
+  width: 1410px;
+  height: 1813px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  padding-top: 813px;
+}
+.mainwrap .wrap .main .page-cont {
+  width: 1410px;
+  height: 289px;
+}
+.mainwrap .wrap .main .page-cont .info-box {
+  float: left;
+  width: 700px;
+  height: auto;
+}
+.mainwrap .wrap .main .page-cont .info-box .name-box {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.mainwrap .wrap .main .page-cont .info-box .name-box .name {
+  height: 171px;
+  margin: 0 28px 0 62px;
+  float: left;
+}
+.mainwrap .wrap .main .page-cont .info-box .name-box .videoplay {
+  margin-top: 82px;
+  display: block;
+  float: left;
+  width: 95px;
+  height: 96px;
+}
+.mainwrap .wrap .main .page-cont .info-box a.info-fx {
+  width: 441px;
+  margin-left: 62px;
+  display: block;
+  line-height: 30px;
+  color: #fff;
+  font-size: 20px;
+  margin: 18px 0 0 62px;
+  text-align: center;
+  text-decoration: underline;
+}
+.mainwrap .wrap .main .page-cont .buy-box {
+  float: right;
+  width: 611px;
+  height: 160px;
+}
+.mainwrap .wrap .main .page-cont .buy-box .price-box {
+  width: 611px;
+  height: 124px;
+  padding-top: 64px;
+  margin-left: -10px;
+}
+.mainwrap .wrap .main .page-cont .buy-box .price-box .name-price {
+  width: 235px;
+  float: left;
+  position: relative;
+}
+.mainwrap .wrap .main .page-cont .buy-box .price-box .name-price .comm-sell {
+  width: 31px;
+  height: 76px;
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1677px -624px;
+  position: absolute;
+  top: 34px;
+  left: 0;
+}
+.mainwrap .wrap .main .page-cont .buy-box .price-box .name-price .sellnum {
+  display: block;
+  float: left;
+  text-align: left;
+  margin-left: 28px;
+  line-height: 108px;
+  padding-right: 20px;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 122px;
+  letter-spacing: -2px;
+  font-style: italic;
+  position: relative;
+  font-weight: 700;
+  font-family: 'sellnum-10';
+}
+.mainwrap .wrap .main .page-cont .buy-box .price-box .name-price .price-qb {
+  display: block;
+  float: left;
+  text-align: left;
+  color: #fff;
+  font-size: 21px;
+  line-height: 30px;
+  position: relative;
+  top: 78px;
+  margin-left: -14px;
+}
+.mainwrap .wrap .main .page-cont .buy-box .price-box .buy-btn {
+  display: block;
+  float: left;
+  width: 338px;
+  height: 115px;
+}
+.mainwrap .wrap .main .copm-box {
+  width: 1568px;
+  height: 488px;
+  padding-top: 47px;
+  margin: -47px 0 13px -78px;
+  background: url(../images/copm-box1.png) no-repeat 0 0;
+}
+.mainwrap .wrap .main .copm-box .copm-text {
+  float: left;
+  width: 440px;
+  height: auto;
+}
+.mainwrap .wrap .main .copm-box .copm-text ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.mainwrap .wrap .main .copm-box .copm-text ul li {
+  width: 100%;
+  height: 54px;
+  margin-bottom: 14px;
+  list-style: none;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.mainwrap .wrap .main .copm-box .copm-text ul li h5 {
+  font-size: 20px;
+  line-height: 30px;
+  display: block;
+  font-weight: bold;
+}
+.mainwrap .wrap .main .copm-box .copm-text ul li p {
+  font-size: 18px;
+  line-height: 24px;
+  display: block;
+}
+.mainwrap .wrap .main .copm-box .copm-price {
+  float: right;
+  width: 468px;
+  height: auto;
+  position: relative;
+}
+.mainwrap .wrap .main .copm-box .copm-price .copm-info {
+  margin-top: 99px;
+  height: 166px;
+  line-height: 120px;
+  position: relative;
+}
+.mainwrap .wrap .main .copm-box .copm-price .copm-info .copm-sell {
+  margin-left: 41px;
+  display: block;
+  float: left;
+  margin: 34px 0 0 59px;
+  width: 31px;
+  height: 75px;
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1677px -796px;
+}
+.mainwrap .wrap .main .copm-box .copm-price .copm-info .copm-num {
+  display: block;
+  float: left;
+  font-size: 122px;
+  text-align: left;
+  font-style: italic;
+  letter-spacing: -2px;
+  padding-right: 20px;
+  font-weight: 700;
+  font-family: Tahoma;
+}
+.mainwrap .wrap .main .copm-box .copm-price .copm-info .copm-qb {
+  display: block;
+  float: left;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 84px;
+  margin-left: -20px;
+}
+.mainwrap .wrap .main .copm-box .copm-price .copm-info .copm-hero {
+  width: 338px;
+  text-align: center;
+  font-size: 21px;
+  line-height: 30px;
+  position: absolute;
+  left: 0;
+  bottom: 18px;
+  display: block;
+  float: left;
+}
+.mainwrap .wrap .main .copm-box .copm-price .copm-buy {
+  width: 338px;
+  height: auto;
+}
+.mainwrap .wrap .main .copm-box .copm-price .copm-buy .btn-buy {
+  display: block;
+  margin-left: 0;
+  float: left;
+  width: 338px;
+  height: 115px;
+}
+.mainwrap .wrap .main .colorful-btn {
+  width: 1206px;
+  height: 210px;
+  background: url(../images/spr.png) no-repeat;
+  background-position: -10px -443px;
+  cursor: pointer;
+  margin: 0 auto;
+  position: relative;
+}
+.mainwrap .wrap .main .colorful-btn em.spr {
+  width: 210px;
+  height: 210px;
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1743px -443px;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 0;
+  margin-left: -105px;
+  -webkit-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  -webkit-animation: twinkling 1.4s linear infinite;
+  animation: twinkling 1.4s linear infinite;
+}
+.mainwrap .wrap .main .colorful-btn p {
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 30px;
+  width: 100%;
+  text-align: center;
+  padding-top: 193px;
+  -webkit-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  position: relative;
+  z-index: 2;
+}
+@keyframes twinkling {
+  0% {
+    opacity: 0.2;
+  }
+  45% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+.mainwrap .wrap .colorful {
+  height: 675px;
+  width: 1515px;
+  position: absolute;
+  left: 50%;
+  margin-left: -757px;
+  z-index: 10;
+  -webkit-transition: height 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: height 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  overflow: hidden;
+  top: 1740px;
+}
+.mainwrap .wrap .colorful .colorful-info {
+  height: 341px;
+  width: 1000px;
+  padding-left: 114px;
+  position: relative;
+}
+.mainwrap .wrap .colorful .colorful-info .colorful-spr {
+  position: absolute;
+  top: 43px;
+  left: 114px;
+  height: 157px;
+}
+.mainwrap .wrap .colorful .colorful-info .colorful-contain-box {
+  padding-top: 204px;
+  height: 39px;
+  line-height: 25px;
+}
+.mainwrap .wrap .colorful .colorful-info .colorful-contain-box p {
+  display: block;
+}
+.mainwrap .wrap .colorful .colorful-info .colorful-contain-box .colorful-p1 {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 16px;
+  color: #555555;
+  float: left;
+  line-height: 25px;
+}
+.mainwrap .wrap .colorful .colorful-info .colorful-contain-box .colorful-p1 .colorful-icon1 {
+  display: block;
+  float: left;
+  margin-right: 9px;
+  width: 25px;
+  height: 24px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -815px -177px;
+}
+.mainwrap .wrap .colorful .colorful-info .colorful-contain-box .colorful-contain {
+  float: left;
+  margin-right: 16px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 14px;
+  color: #555555;
+}
+.mainwrap .wrap .colorful .colorful-info .colorful-contain-box .colorful-contain1 {
+  width: 95px;
+  height: 25px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -727px -384px;
+}
+.mainwrap .wrap .colorful .colorful-info .colorful-contain-box .colorful-contain2 {
+  width: 148px;
+  height: 25px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -422px -384px;
+}
+.mainwrap .wrap .colorful .colorful-info .colorful-contain-box .colorful-contain3 {
+  width: 208px;
+  height: 25px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -422px -177px;
+}
+.mainwrap .wrap .colorful .colorful-info .colorful-date {
+  width: 100%;
+  height: 38px;
+  line-height: 25px;
+  font-size: 14px;
+  text-align: left;
+  color: #555555;
+  float: left;
+}
+.mainwrap .wrap .colorful .colorful-info .colorful-date p span {
+  display: block;
+  float: left;
+  margin-right: 18px;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  padding: 0 15px;
+  background-color: #555555;
+  border-radius: 25px;
+}
+.mainwrap .wrap .colorful .colorful-info .colorful-text {
+  float: left;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+  color: #555555;
+}
+.mainwrap .wrap .colorful .colorful-info .colorful-text h5 {
+  position: relative;
+  left: -8px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.mainwrap .wrap .colorful .colorful-price {
+  position: absolute;
+  width: 442px;
+  right: 0;
+  top: 50px;
+  float: right;
+  height: auto;
+}
+.mainwrap .wrap .colorful .colorful-price .copm-info {
+  width: 120%;
+  margin-left: -98px;
+  padding-top: 0;
+  height: 166px;
+  line-height: 90px;
+  position: relative;
+}
+.mainwrap .wrap .colorful .colorful-price .copm-info .copm-sell {
+  margin-left: 41px;
+  display: block;
+  float: left;
+  margin: 34px 0 0 59px;
+  width: 31px;
+  height: 75px;
+}
+.mainwrap .wrap .colorful .colorful-price .copm-info .copm-num {
+  display: block;
+  float: left;
+  font-size: 122px;
+  text-align: left;
+  font-style: italic;
+  letter-spacing: -10px;
+  padding-right: 20px;
+  font-weight: 700;
+}
+.mainwrap .wrap .colorful .colorful-price .copm-info .copm-qb {
+  display: block;
+  float: left;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 84px;
+  margin-left: -20px;
+}
+.mainwrap .wrap .colorful .colorful-price .copm-info .copm-hero {
+  margin-left: 98px;
+  width: 338px;
+  text-align: center;
+  font-size: 21px;
+  line-height: 30px;
+  position: absolute;
+  left: 0;
+  bottom: 18px;
+  display: block;
+  float: left;
+}
+.mainwrap .wrap .colorful .colorful-price .copm-buy {
+  width: 338px;
+  height: auto;
+}
+.mainwrap .wrap .colorful .colorful-price .copm-buy .btn-buy {
+  display: block;
+  margin-left: 0;
+  float: left;
+  width: 338px;
+  height: 115px;
+}
+.mainwrap .wrap .colorful .colorful-show ul {
+  font-style: normal;
+  list-style: none;
+  width: 105%;
+  padding: 0;
+}
+.mainwrap .wrap .colorful .colorful-show ul li {
+  float: left;
+  height: auto;
+  text-align: center;
+  position: relative;
+}
+.mainwrap .wrap .colorful .colorful-show ul li .colorful-tips {
+  position: absolute;
+  top: 44px;
+  text-align: center;
+  width: 137px;
+}
+.mainwrap .wrap .colorful .colorful-show ul li .colorful-tips span {
+  display: block;
+  line-height: 18px;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #ffffff;
+}
+.mainwrap .wrap .colorful .colorful-show ul li .colorful-tips span.more {
+  padding-top: 16px;
+}
+.mainwrap .wrap .colorful .colorful-show ul .colorful-show-li p {
+  color: #555555;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.mainwrap .wrap .colorful .colorful-show ul .colorful-show-li p span {
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+}
+.mainwrap .wrap .colorful .colorful-close-box {
+  position: absolute;
+  z-index: 5;
+  top: 622px;
+  left: 50%;
+  margin-left: -163px;
+  width: 326px;
+  height: 53px;
+  padding-top: 0;
+}
+.mainwrap .wrap .colorful .colorful-close-box em {
+  display: block;
+  margin: 0 auto;
+  width: 165px;
+  height: 29px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -640px -177px;
+}
+/* 
+幻灵战队队长__厄运小姐
+*/
+.mainwrap .wrap1 {
+  background: url(../images/bg2.jpg) no-repeat;
+}
+.mainwrap .wrap1 .bar1 {
+  background: url(../images/spr.png);
+}
+.mainwrap .wrap1 .main .page-cont .info-box .name-box .name1 {
+  width: 441px;
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1226px -624px;
+}
+.mainwrap .wrap1 .main .page-cont .info-box .name-box .videoplay1 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -670px -1543px;
+}
+.mainwrap .wrap1 .main .page-cont .buy-box .price-box .name-price .sellnum1 {
+  background-image: linear-gradient(#fff 40%, #ffa3ff 80%);
+}
+.mainwrap .wrap1 .main .page-cont .buy-box .price-box .buy-btn1 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1226px -1167px;
+}
+.mainwrap .wrap1 .main .copm-box1 {
+  background: url(../images/copm-box1.png) no-repeat 0 0;
+}
+.mainwrap .wrap1 .main .copm-box1 .copm-text1 {
+  margin: 252px 0 0 165px;
+}
+.mainwrap .wrap1 .main .copm-box1 .copm-text1 h5,
+.mainwrap .wrap1 .main .copm-box1 .copm-text1 p {
+  color: #e45ef2;
+}
+.mainwrap .wrap1 .main .copm-box1 .copm-price .copm-info .copm-num1,
+.mainwrap .wrap1 .main .copm-box1 .copm-price .copm-info .copm-qb1,
+.mainwrap .wrap1 .main .copm-box1 .copm-price .copm-info .copm-hero1 {
+  color: #e45ef2;
+}
+.mainwrap .wrap1 .main .copm-box1 .copm-price .copm-buy .btn-buy1 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1226px -1167px;
+}
+.mainwrap .wrap1 .colorful1 {
+  background: url(../images/colorful-bg1.png) no-repeat;
+}
+.mainwrap .wrap1 .colorful1 .colorful-info .colorful-spr1 {
+  width: 418px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -10px -10px;
+}
+.mainwrap .wrap1 .colorful1 .colorful-price .copm-info .copm-sell1 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1677px -796px;
+}
+.mainwrap .wrap1 .colorful1 .colorful-price .copm-info .copm-num1,
+.mainwrap .wrap1 .colorful1 .colorful-price .copm-info .copm-qb1,
+.mainwrap .wrap1 .colorful1 .colorful-price .copm-info .copm-hero1 {
+  color: #ec8aff;
+}
+.mainwrap .wrap1 .colorful1 .colorful-price .copm-buy .btn-buy1 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1226px -1167px;
+}
+.mainwrap .wrap1 .colorful1 .colorful-show1 {
+  width: 912px;
+  padding-top: 154px;
+  margin-left: 310px;
+  background: url(../images/colorful-show1.png) no-repeat;
+}
+.mainwrap .wrap1 .colorful1 .colorful-show1 > ul > li {
+  width: 197px;
+}
+.mainwrap .wrap1 .colorful1 .colorful-show1 > ul > li > p {
+  width: 107px;
+}
+.mainwrap .wrap1 .colorful1 .colorful-show1 > ul > li > p span {
+  color: #ec8aff;
+}
+.mainwrap .wrap1 .colorful1 .colorful-show1 .colorful-tips11 {
+  left: -15px;
+  height: 49px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -834px -355px;
+}
+.mainwrap .wrap1 .colorful1 .colorful-show1 .colorful-tips12 {
+  left: -17px;
+  height: 59px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -850px -10px;
+}
+.mainwrap .wrap1 .colorful1 .colorful-show1 .colorful-show-li5 {
+  width: 118px;
+}
+/* 
+幻灵战斗猫__ 金克丝
+*/
+.mainwrap .wrap2 {
+  background: url(../images/bg3.jpg) no-repeat;
+}
+.mainwrap .wrap2 .bar2 {
+  background: url(../images/spr.png);
+  background-position: -10px -72px;
+}
+.mainwrap .wrap2 .main .page-cont .info-box .name-box .name2 {
+  width: 353px;
+  margin: 0 55px 0 105px;
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1226px -805px;
+}
+.mainwrap .wrap2 .main .page-cont .info-box .name-box .videoplay2 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -775px -1543px;
+}
+.mainwrap .wrap2 .main .page-cont .buy-box .price-box .name-price .sellnum2 {
+  background-image: linear-gradient(#fff 40%, #9ae0ce 80%);
+}
+.mainwrap .wrap2 .main .page-cont .buy-box .price-box .buy-btn2 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1226px -1292px;
+}
+.mainwrap .wrap2 .main .copm-box2 {
+  background: url(../images/copm-box2.png) no-repeat 0 0;
+}
+.mainwrap .wrap2 .main .copm-box2 .copm-text2 {
+  margin: 245px 0 0 165px;
+}
+.mainwrap .wrap2 .main .copm-box2 .copm-text2 h5,
+.mainwrap .wrap2 .main .copm-box2 .copm-text2 p {
+  color: #00cbc4;
+}
+.mainwrap .wrap2 .main .copm-box2 .copm-price .copm-info .copm-sell2 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1922px -1297px;
+}
+.mainwrap .wrap2 .main .copm-box2 .copm-price .copm-info .copm-num2,
+.mainwrap .wrap2 .main .copm-box2 .copm-price .copm-info .copm-qb2,
+.mainwrap .wrap2 .main .copm-box2 .copm-price .copm-info .copm-hero2 {
+  color: #06cfc4;
+}
+.mainwrap .wrap2 .main .copm-box2 .copm-price .copm-buy .btn-buy2 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1226px -1292px;
+}
+.mainwrap .wrap2 .colorful2 {
+  background: url(../images/colorful-bg2.png) no-repeat;
+}
+.mainwrap .wrap2 .colorful2 .colorful-info .colorful-spr2 {
+  width: 402px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -438px -10px;
+}
+.mainwrap .wrap2 .colorful2 .colorful-price .copm-info .copm-sell2 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1922px -1297px;
+}
+.mainwrap .wrap2 .colorful2 .colorful-price .copm-info .copm-num2,
+.mainwrap .wrap2 .colorful2 .colorful-price .copm-info .copm-qb2,
+.mainwrap .wrap2 .colorful2 .colorful-price .copm-info .copm-hero2 {
+  color: #06cfc4;
+}
+.mainwrap .wrap2 .colorful2 .colorful-price .copm-buy .btn-buy2 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1226px -1292px;
+}
+.mainwrap .wrap2 .colorful2 .colorful-show2 {
+  width: 1197px;
+  padding-top: 138px;
+  margin-left: 159px;
+  background: url(../images/colorful-show2.png) no-repeat;
+}
+.mainwrap .wrap2 .colorful2 .colorful-show2 > ul > li {
+  width: 157px;
+}
+.mainwrap .wrap2 .colorful2 .colorful-show2 > ul > li > p {
+  width: 107px;
+}
+.mainwrap .wrap2 .colorful2 .colorful-show2 > ul > li > p span {
+  color: #06cfc4;
+}
+.mainwrap .wrap2 .colorful2 .colorful-show2 .colorful-tips21 {
+  left: -15px;
+  height: 59px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -850px -79px;
+}
+.mainwrap .wrap2 .colorful2 .colorful-show2 .colorful-tips22 {
+  left: -17px;
+  height: 49px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -580px -384px;
+}
+/* 
+幻灵战斗蝠__ 维恩
+*/
+.mainwrap .wrap3 {
+  background: url(../images/bg4.jpg) no-repeat;
+}
+.mainwrap .wrap3 .bar3 {
+  background: url(../images/spr.png);
+  background-position: -10px -134px;
+}
+.mainwrap .wrap3 .main .page-cont .info-box .name-box .name3 {
+  width: 353px;
+  margin: 0 55px 0 105px;
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1589px -935px;
+}
+.mainwrap .wrap3 .main .page-cont .info-box .name-box .videoplay3 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -880px -1543px;
+}
+.mainwrap .wrap3 .main .page-cont .buy-box .price-box .name-price .sellnum3 {
+  background-image: linear-gradient(#fff 40%, #fb99e4 80%);
+}
+.mainwrap .wrap3 .main .page-cont .buy-box .price-box .buy-btn3 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1574px -1297px;
+}
+.mainwrap .wrap3 .main .copm-box3 {
+  background: url(../images/copm-box3.png) no-repeat 0 0;
+}
+.mainwrap .wrap3 .main .copm-box3 .copm-text3 {
+  margin: 245px 0 0 165px;
+}
+.mainwrap .wrap3 .main .copm-box3 .copm-text3 h5,
+.mainwrap .wrap3 .main .copm-box3 .copm-text3 p {
+  color: #f842d1;
+}
+.mainwrap .wrap3 .main .copm-box3 .copm-price .copm-info .copm-sell3 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1922px -1382px;
+}
+.mainwrap .wrap3 .main .copm-box3 .copm-price .copm-info .copm-num3,
+.mainwrap .wrap3 .main .copm-box3 .copm-price .copm-info .copm-qb3,
+.mainwrap .wrap3 .main .copm-box3 .copm-price .copm-info .copm-hero3 {
+  color: #f842d1;
+}
+.mainwrap .wrap3 .main .copm-box3 .copm-price .copm-buy .btn-buy3 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1574px -1297px;
+}
+.mainwrap .wrap3 .colorful3 {
+  background: url(../images/colorful-bg3.png) no-repeat;
+}
+.mainwrap .wrap3 .colorful3 .colorful-info .colorful-spr3 {
+  width: 402px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -10px -177px;
+}
+.mainwrap .wrap3 .colorful3 .colorful-price .copm-info .copm-sell3 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1922px -1382px;
+}
+.mainwrap .wrap3 .colorful3 .colorful-price .copm-info .copm-num3,
+.mainwrap .wrap3 .colorful3 .colorful-price .copm-info .copm-qb3,
+.mainwrap .wrap3 .colorful3 .colorful-price .copm-info .copm-hero3 {
+  color: #f842d1;
+}
+.mainwrap .wrap3 .colorful3 .colorful-price .copm-buy .btn-buy3 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1574px -1297px;
+}
+.mainwrap .wrap3 .colorful3 .colorful-show3 {
+  width: 1197px;
+  padding-top: 138px;
+  margin-left: 159px;
+  background: url(../images/colorful-show3.png) no-repeat;
+}
+.mainwrap .wrap3 .colorful3 .colorful-show3 > ul > li {
+  width: 157px;
+}
+.mainwrap .wrap3 .colorful3 .colorful-show3 > ul > li > p {
+  width: 99px;
+}
+.mainwrap .wrap3 .colorful3 .colorful-show3 > ul > li > p span {
+  color: #f842d1;
+}
+.mainwrap .wrap3 .colorful3 .colorful-show3 .colorful-tips31 {
+  left: -19px;
+  height: 59px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -850px -148px;
+}
+.mainwrap .wrap3 .colorful3 .colorful-show3 .colorful-tips32 {
+  left: -19px;
+  height: 49px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -422px -419px;
+}
+/* 
+幻灵战斗兔__ 锐雯
+*/
+.mainwrap .wrap4 {
+  background: url(../images/bg5.jpg) no-repeat;
+}
+.mainwrap .wrap4 .bar4 {
+  background: url(../images/spr.png);
+  background-position: -10px -196px;
+}
+.mainwrap .wrap4 .main .page-cont .info-box .name-box .name4 {
+  width: 353px;
+  margin: 0 55px 0 105px;
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1226px -986px;
+}
+.mainwrap .wrap4 .main .page-cont .info-box .name-box .videoplay4 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -913px -1649px;
+}
+.mainwrap .wrap4 .main .page-cont .buy-box .price-box .name-price .sellnum4 {
+  background-image: linear-gradient(#fff 40%, #f5e6b2 80%);
+}
+.mainwrap .wrap4 .main .page-cont .buy-box .price-box .buy-btn4 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1226px -1417px;
+}
+.mainwrap .wrap4 .main .copm-box4 {
+  background: url(../images/copm-box4.png) no-repeat 0 0;
+}
+.mainwrap .wrap4 .main .copm-box4 .copm-text4 {
+  margin: 245px 0 0 165px;
+}
+.mainwrap .wrap4 .main .copm-box4 .copm-text4 h5,
+.mainwrap .wrap4 .main .copm-box4 .copm-text4 p {
+  color: #ff9f16;
+}
+.mainwrap .wrap4 .main .copm-box4 .copm-price .copm-info .copm-sell4 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1922px -1467px;
+}
+.mainwrap .wrap4 .main .copm-box4 .copm-price .copm-info .copm-num4,
+.mainwrap .wrap4 .main .copm-box4 .copm-price .copm-info .copm-qb4,
+.mainwrap .wrap4 .main .copm-box4 .copm-price .copm-info .copm-hero4 {
+  color: #ff9f16;
+}
+.mainwrap .wrap4 .main .copm-box4 .copm-price .copm-buy .btn-buy4 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1226px -1417px;
+}
+.mainwrap .wrap4 .colorful4 {
+  background: url(../images/colorful-bg4.png) no-repeat;
+}
+.mainwrap .wrap4 .colorful4 .colorful-info .colorful-spr4 {
+  width: 402px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -422px -217px;
+}
+.mainwrap .wrap4 .colorful4 .colorful-price .copm-info .copm-sell4 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1922px -1467px;
+}
+.mainwrap .wrap4 .colorful4 .colorful-price .copm-info .copm-num4,
+.mainwrap .wrap4 .colorful4 .colorful-price .copm-info .copm-qb4,
+.mainwrap .wrap4 .colorful4 .colorful-price .copm-info .copm-hero4 {
+  color: #ff9f16;
+}
+.mainwrap .wrap4 .colorful4 .colorful-price .copm-buy .btn-buy4 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1226px -1417px;
+}
+.mainwrap .wrap4 .colorful4 .colorful-show4 {
+  width: 1208px;
+  padding-top: 139px;
+  margin-left: 148px;
+  background: url(../images/colorful-show4.png) no-repeat;
+}
+.mainwrap .wrap4 .colorful4 .colorful-show4 > ul > li {
+  width: 157px;
+}
+.mainwrap .wrap4 .colorful4 .colorful-show4 > ul > li > p {
+  width: 121px;
+}
+.mainwrap .wrap4 .colorful4 .colorful-show4 > ul > li > p span {
+  color: #ff9f16;
+}
+.mainwrap .wrap4 .colorful4 .colorful-show4 .colorful-tips41 {
+  left: -8px;
+  height: 59px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -834px -217px;
+}
+.mainwrap .wrap4 .colorful4 .colorful-show4 .colorful-tips42 {
+  left: -8px;
+  height: 49px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -832px -414px;
+}
+/* 
+幻灵战斗狼__ 塞拉斯
+*/
+.mainwrap .wrap5 {
+  background: url(../images/bg6.jpg) no-repeat;
+}
+.mainwrap .wrap5 .bar5 {
+  background: url(../images/spr.png);
+  background-position: -10px -258px;
+}
+.mainwrap .wrap5 .main .page-cont .info-box .name-box .name5 {
+  width: 353px;
+  margin: 0 55px 0 105px;
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1589px -1116px;
+}
+.mainwrap .wrap5 .main .page-cont .info-box .name-box .videoplay5 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -985px -1543px;
+}
+.mainwrap .wrap5 .main .page-cont .buy-box .price-box .name-price .sellnum5 {
+  background-image: linear-gradient(#fff 40%, #bbc8ff 80%);
+}
+.mainwrap .wrap5 .main .page-cont .buy-box .price-box .buy-btn5 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1574px -1422px;
+}
+.mainwrap .wrap5 .main .copm-box5 {
+  background: url(../images/copm-box5.png) no-repeat 0 0;
+}
+.mainwrap .wrap5 .main .copm-box5 .copm-text5 {
+  margin: 245px 0 0 165px;
+}
+.mainwrap .wrap5 .main .copm-box5 .copm-text5 h5,
+.mainwrap .wrap5 .main .copm-box5 .copm-text5 p {
+  color: #747bf3;
+}
+.mainwrap .wrap5 .main .copm-box5 .copm-price .copm-info .copm-sell5 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1589px -805px;
+}
+.mainwrap .wrap5 .main .copm-box5 .copm-price .copm-info .copm-num5,
+.mainwrap .wrap5 .main .copm-box5 .copm-price .copm-info .copm-qb5,
+.mainwrap .wrap5 .main .copm-box5 .copm-price .copm-info .copm-hero5 {
+  color: #747bf3;
+}
+.mainwrap .wrap5 .main .copm-box5 .copm-price .copm-buy .btn-buy5 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1574px -1422px;
+}
+.mainwrap .wrap5 .colorful5 {
+  background: url(../images/colorful-bg5.png) no-repeat;
+}
+.mainwrap .wrap5 .colorful5 .colorful-info .colorful-spr5 {
+  width: 402px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -1589px -805px;
+}
+.mainwrap .wrap5 .colorful5 .colorful-price .copm-info .copm-sell5 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1922px -1467px;
+}
+.mainwrap .wrap5 .colorful5 .colorful-price .copm-info .copm-num5,
+.mainwrap .wrap5 .colorful5 .colorful-price .copm-info .copm-qb5,
+.mainwrap .wrap5 .colorful5 .colorful-price .copm-info .copm-hero5 {
+  color: #747bf3;
+}
+.mainwrap .wrap5 .colorful5 .colorful-price .copm-buy .btn-buy5 {
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1574px -1422px;
+}
+.mainwrap .wrap5 .colorful5 .colorful-show5 {
+  width: 1057px;
+  padding-top: 144px;
+  margin-left: 231px;
+  background: url(../images/colorful-show5.png) no-repeat;
+}
+.mainwrap .wrap5 .colorful5 .colorful-show5 > ul > li {
+  width: 157px;
+}
+.mainwrap .wrap5 .colorful5 .colorful-show5 > ul > li > p {
+  width: 133px;
+}
+.mainwrap .wrap5 .colorful5 .colorful-show5 > ul > li > p span {
+  color: #747bf3;
+}
+.mainwrap .wrap5 .colorful5 .colorful-show5 .colorful-tips51 {
+  left: -2px;
+  height: 59px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -834px -286px;
+}
+.mainwrap .wrap5 .colorful5 .colorful-show5 .colorful-tips52 {
+  left: -2px;
+  height: 49px;
+  background: url(../images/colorful-spr.png) no-repeat;
+  background-position: -569px -443px;
+}
+/*
+幻灵战斗猫__ 拉克丝
+*/
+.mainwrap .wrap6 {
+  background: url(../images/bg7.jpg) 50% 0 no-repeat;
+  height: 1143px;
+}
+.mainwrap .wrap6 .bar6 {
+  background: url(../images/spr.png);
+  background-position: -10px -320px;
+}
+.mainwrap .wrap6 .main {
+  width: 1410px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  padding-top: 844px;
+}
+.mainwrap .wrap6 .main .info-box {
+  float: left;
+  width: 700px;
+  height: auto;
+}
+.mainwrap .wrap6 .main .info-box .name-box {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.mainwrap .wrap6 .main .info-box .name-box .name6 {
+  margin: 0 -92px 0 116px;
+  float: left;
+  width: 507px;
+  height: 171px;
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1226px -443px;
+}
+.mainwrap .wrap6 .main .info-box .name-box .videoplay6 {
+  margin-top: 78px;
+  display: block;
+  float: left;
+  width: 95px;
+  height: 96px;
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1090px -1543px;
+}
+.mainwrap .wrap6 .main .price-box {
+  float: right;
+  width: 324px;
+  text-align: left;
+}
+.mainwrap .wrap6 .main .price-box h5 {
+  line-height: 30px;
+  margin-top: -21px;
+  color: #ffefcf;
+  font-size: 20px;
+}
+.mainwrap .wrap6 .main .price-box .sellnum6 {
+  display: block;
+  width: 100%;
+  height: 110px;
+  line-height: 88px;
+  font-size: 100px;
+  background-image: linear-gradient(#fff 40%, #ffedcb 80%);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -2px;
+  font-style: italic;
+  position: relative;
+  font-weight: 700;
+}
+.mainwrap .wrap6 .main .price-box p {
+  line-height: 22px;
+  font-size: 18px;
+  color: #fff;
+}
+.mainwrap .wrap6 .main .price-box p span {
+  line-height: 36px;
+  display: block;
+  color: #f5e5c5;
+  font-size: 22px;
+}
+/*
+幻灵终极大礼包
+*/
+.mainwrap .wrap7 {
+  height: 1253px;
+  background: url(../images/bg8.jpg) 50% 0 no-repeat;
+}
+.mainwrap .wrap7 .main {
+  padding-top: 809px;
+  width: 1410px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+.mainwrap .wrap7 .main .copm-price {
+  width: 100%;
+  height: 350px;
+  float: right;
+  position: relative;
+}
+.mainwrap .wrap7 .main .copm-price .copm-info {
+  margin-left: 244px;
+  position: relative;
+  width: 500px;
+  padding-top: 0;
+  height: 166px;
+  line-height: 90px;
+}
+.mainwrap .wrap7 .main .copm-price .copm-info .copm-sell7 {
+  display: block;
+  float: left;
+  margin: 31px 4px 0 0;
+  width: 31px;
+  height: 75px;
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1589px -805px;
+  font-style: italic;
+}
+.mainwrap .wrap7 .main .copm-price .copm-info .sellnum7 {
+  display: block;
+  float: left;
+  height: 114px;
+  line-height: 90px;
+  padding-right: 20px;
+  background-image: linear-gradient(#747bf3 40%, #885ce3 80%);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 122px;
+  letter-spacing: -2px;
+  font-style: italic;
+  position: relative;
+  font-weight: 700;
+}
+.mainwrap .wrap7 .main .copm-price .copm-info .copm-qb {
+  display: block;
+  float: left;
+  color: #747bf3;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 82px;
+  margin-left: -20px;
+}
+.mainwrap .wrap7 .main .copm-price .copm-info p {
+  position: absolute;
+  line-height: 32px;
+  top: 114px;
+  left: 34px;
+  color: #747bf3;
+  font-size: 21px;
+}
+.mainwrap .wrap7 .main .copm-price .copm-buy {
+  width: 100%;
+  margin: 10px auto 0;
+  height: auto;
+}
+.mainwrap .wrap7 .main .copm-price .copm-buy .btn-buy7 {
+  display: block;
+  margin: 0 auto;
+  float: none;
+  width: 338px;
+  height: 115px;
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1226px -1542px;
+}
+.mainwrap .wrap7 .main .wrap7-text {
+  position: absolute;
+  top: 892px;
+  left: 50%;
+  margin-left: -20px;
+  width: 670px;
+}
+.mainwrap .wrap7 .main .wrap7-text li {
+  width: 100%;
+  line-height: 26px;
+  height: 26px;
+  margin-bottom: 9px;
+  color: #747bf3;
+  font-size: 16px;
+}
+.mainwrap .wrap7 .main .wrap7-text li .wrap7-icon {
+  display: block;
+  float: left;
+  margin: 6px 12px 0 0;
+  width: 15px;
+  height: 12px;
+  background: url(../images/spr.png) no-repeat;
+  background-position: -1718px -624px;
+}
+.mainwrap .wrap7 .main .wrap7-text li span {
+  display: block;
+  float: left;
+  padding: 0 10px;
+  height: 26px;
+  background-color: #747bf3;
+  text-align: center;
+  border-radius: 26px;
+  color: #fafaff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+/*
+导航栏
+*/
+.sidenav {
+  position: fixed;
+  top: 50%;
+  right: -233px;
+  width: 233px;
+  height: 707px;
+  margin-top: -353px;
+  z-index: 12;
+}
+.sidenav a {
+  display: block;
+  width: 233px;
+  height: 84px;
+  padding-top: 7px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.sidenav a em {
+  display: block;
+  margin-left: 30px;
+  position: relative;
+  z-index: 2;
+}
+.sidenav a em.spr {
+  background: url(../images/spr.png) no-repeat;
+}
+.sidenav a em.nav-1 {
+  width: 186px;
+  height: 76px;
+  background-position: -1224px -1667px;
+}
+.sidenav a em.nav-2 {
+  width: 168px;
+  height: 76px;
+  background-position: -1420px -1667px;
+}
+.sidenav a em.nav-3 {
+  width: 166px;
+  height: 76px;
+  background-position: -1598px -1638px;
+}
+.sidenav a em.nav-4 {
+  width: 166px;
+  height: 76px;
+  background-position: -1774px -1638px;
+}
+.sidenav a em.nav-5 {
+  width: 168px;
+  height: 76px;
+  background-position: -1574px -1552px;
+}
+.sidenav a em.nav-6 {
+  width: 196px;
+  height: 76px;
+  background-position: -1018px -1649px;
+}
+.sidenav a em.nav-7 {
+  width: 168px;
+  height: 76px;
+  background-position: -1752px -1552px;
+}
+.sidenav a i {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.sidenav a i.nav-layer {
+  width: 233px;
+  height: 91px;
+  background: url(../images/spr.png) no-repeat;
+  background-position: -670px -1668px;
+}
+.sidenav a i.on {
+  display: block;
+}
